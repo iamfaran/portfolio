@@ -11,7 +11,7 @@ const AppTypewriter = ({
         strings,
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 5,
         wrapperClassName,
         cursorClassName,
       }}
