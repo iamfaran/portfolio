@@ -21,24 +21,23 @@ const IntroSection = () => {
 
           <div className={s.description}>
             <p>
-              I'm a React Native Developer with two years of
-              experience <br />
-              creating mobile apps for the iOS, Android, and Web
-              platforms.
-            </p>
-
-            <p>
-              My skills include proficiency in{' '}
+              I am a Front-End Developer proficient in{' '}
               <i>
                 <b className={s.purple}>
-                  TypeScript, React, React Native,
+                  TypeScript, React, and Angular
                 </b>
-              </i>
+              </i>{' '}
               <br />
-              and other relevant technologies. I have experience in
-              integrating various <br />
-              third-party libraries, API integration, push
-              notifications and analytics.
+              Beyond core front-end technologies, I have a strong
+              aptitude for integrating <br /> third-party libraries
+              and APIs to create feature-rich applications
+              <br />
+              Additionally, I bring specialized experience in
+              developing <br />{' '}
+              <i>
+                <b className={s.purple}> chrome extensions</b>
+              </i>{' '}
+              to enhance user experience.
             </p>
 
             <p>
