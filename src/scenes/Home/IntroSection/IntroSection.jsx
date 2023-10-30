@@ -1,11 +1,7 @@
 import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
-import {
-  FaFacebookSquare,
-  FaLinkedinIn,
-  FaTelegramPlane,
-} from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -63,7 +59,7 @@ const IntroSection = () => {
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/iamfaran"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -72,31 +68,10 @@ const IntroSection = () => {
               <AiFillGithub />
             </a>
           </li>
+
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-              aria-label="facebook"
-            >
-              <FaFacebookSquare />
-            </a>
-          </li>
-          <li className={s.socialLink}>
-            <a
-              href="https://t.me/snaichuk_v"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-              aria-label="telegram"
-            >
-              <FaTelegramPlane />
-            </a>
-          </li>
-          <li className={s.socialLink}>
-            <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://www.linkedin.com/in/faranjaved/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

@@ -22,7 +22,7 @@ const MainSection = () => {
               'Front-End Developer',
               'ReactJS Developer',
               'Angular Developer',
-              'Chrome Extensions Developer',
+              'Chrome Extension Developer',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}
